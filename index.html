@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/cab42dffd7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/favicon.png">
+  <title>XDS - Acessórios Gamer</title>
+</head>
+
+<body onload="countdown()">
+  <header>
+    <img src="assets/logo.png" width=400px alt="XDS Logo" />
+  </header>
+
+  <div class="message-container">
+    <p>Os melhores acessórios para turbinar seu computador</p>
+  </div>
+
+  <section class="section-container section-one">
+    <div class="content-left">
+      <h1 class="content-left__badge">BLACK FRIDAY</h1>
+      <div>
+        <ul class="countdown">
+          <li>
+            <div id="days" class="number">00</div>
+            <div class="countdown__label">Dias</div>
+          </li>
+
+          <li>
+            <div id="hours" class="number">00</div>
+            <div class="countdown__label">Horas</div>
+          </li>
+
+          <li>
+            <div id="minutes" class="number">00</div>
+            <div class="countdown__label">Minutos</div>
+          </li>
+
+          <li>
+            <div id="seconds" class="number">00</div>
+            <div class="countdown__label">Segundos</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="content-right" id="content-right">
+        <div id="form" class="form">
+          <h1>CADASTRE-SE AGORA MESMO!</h1>
+          <p class="form__title">Obtenha acesso aos melhores produtos com os melhores preços!</p>
+          <a href="./login.html" class="button">CONHEÇA NOSSOS PRODUTOS</a>
+        </div>
+      </div>
+  </section>
+
+  <footer class="footer">
+    <p class="footer__text">Desenvolvido por <span class="orange">Vitor Cardoso</span> para obtenção de pontuação no Hiring Coders #2.</p>
+    <div class="social-container">
+      <a href="https://github.com/vscsilva" target="_blank" class="social-container__item">
+        <i class="fab fa-github fa-2x"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/vscsilva/" target="_blank" class="social-container__item">
+        <i class="fab fa-linkedin fa-2x"></i>
+      </a>
+    </div>
+  </footer>
+
+</body>
+
+<script src="js/countdown.js"></script>
+
+</html>
