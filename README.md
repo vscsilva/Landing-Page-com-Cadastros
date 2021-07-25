@@ -6,3 +6,5 @@ Número máximo por produto: 10.
 Carrinho de Compras disponível.
 
 Utiliza scripts em JS para cadastro e carrinho de compras.
+
+#https://xds-acessorios-gamer.netlify.app/
